@@ -1,5 +1,8 @@
 spring:
   application:
     name: blog
+  profiles:
+    active: dev
+    include: secret
 server:
   port: 8089
